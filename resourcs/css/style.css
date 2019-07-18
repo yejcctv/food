@@ -1,0 +1,172 @@
+/*..............................*/
+/*basic setup*/
+/*..............................*/
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color: #555 ;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.row {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.section {
+    padding: 100px 0;
+}
+/*..............................*/
+/*hedins*/
+/*..............................*/
+h1 {
+    color: rgb(255, 1, 1);
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 350%;
+    font-weight: 300 ;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+h2 {
+    font-size: 180%;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2::after {
+    content: '';
+    height: 2px;
+    width: 100px;
+    display: block;
+    background-color: #009100;
+    margin: 40px auto;
+}
+h3 {
+    font-size: 110%;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.card p {
+    font-size: 90%;
+    line-height: 1.5;
+    width: 90%;
+}
+
+/*..............................*/
+/*paragraphes*/
+/*..............................*/
+
+.text {
+    line-height: 145%;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto 50px auto;
+}
+
+/*..............................*/
+/*bottons*/
+/*..............................*/
+.class:link,
+.class:visited {
+    display: inline-block;
+    padding:10px 30px ;
+    text-decoration:none;
+    font-size: 80%;
+    border-radius: 200px;
+    transition: 0.5s ; 
+}
+.facebook:link,
+.facebook:visited {
+    background-color: #d623c1;
+    margin-left: 30px;
+    color: #fff;
+    border: 1px solid #d623c1;
+}
+.facebook:hover,
+.facebook:active {
+    background-color: #009100;
+
+}
+.groupe:link,
+.groupe:visited {
+    border: 1px solid #d623c1;
+    color: #09ff09;
+}
+.groupe:hover,
+.groupe:active {
+    background-color: #009100;
+    color: #fff;
+}
+/*..............................*/
+/*header*/
+/*..............................*/
+header {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-size: cover ;
+    height:100vh ;
+}
+.center {
+    width:1140px ;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+.logo {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+}
+.link {
+float: right;
+list-style: none;
+margin-top: 40px;
+}
+.link li {
+    display: inline-block;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom .5s;
+}
+.link li:hover {
+    border-bottom: 3px solid #009100 ;
+}
+.link li a:link,
+.link li a:visited {
+    text-decoration: none;
+    color: #555;
+}
+/*..............................*/
+/*section future*/
+/*..............................*/
+
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.card {
+    width: 21%;
+}
+.card ion-icon {
+    width: 60px;
+    height: 60px;
+    fill: #009100;
+    margin-bottom: 15px;
+}
+
+
+
+
